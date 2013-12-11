@@ -27,7 +27,7 @@ public class PersonController {
     @ResponseBody
     public PersonVO read(
             @PathVariable("personId")String id){
-        return this.read(id);
+        return this.personService.read(id);//asdads
     }
     
     @Autowired
