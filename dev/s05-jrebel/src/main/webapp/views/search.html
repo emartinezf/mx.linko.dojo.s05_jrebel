@@ -2,5 +2,30 @@
     <input type="text" ng-model="id" placeholder="Person id"/>
 </form>
 <div ng-if="person.name">
-    {{person}}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>{{person.name}}</td>
+            </tr>
+            <tr>
+                <td>App</td>
+                <td>{{person.app}}</td>
+            </tr>
+            <tr>
+                <td>Apm</td>
+                <td>{{person.apm}}</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>{{person.address}}</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
