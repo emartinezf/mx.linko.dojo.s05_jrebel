@@ -28,7 +28,7 @@ public class PersonServiceDummy implements PersonService {
 
     public PersonServiceDummy() {
         PersonVO pvo = new PersonVO();
-        pvo.setAddress("Gabriel Mancera 1142");
+        pvo.setAddress("Gabriel Mancera 1142 Depto 201");
         pvo.setApm("Fernandez");
         pvo.setApp("Martinez");
         pvo.setName("Emmanuel");
